@@ -1,1 +1,0 @@
-{% comment %} <p class="under-logo">beauty bar</p> {% endcomment %}
