@@ -1,0 +1,28 @@
+* {
+    font-size: larger;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.passw {
+    padding-top: .5rem;
+}
+
+h1:hover {
+    animation: ani 4s infinite;
+}
+
+@keyframes ani {
+    0% {
+        color: rgba(0, 0, 0, 0.5);
+    }
+    33% {
+        color: rgba(0, 0, 0, 0.6);
+    }
+    66%{
+        color:rgba(0, 0, 0, 0.7);
+    }
+    100%{
+        color: rgba(0, 0, 0, 0.8)
+    }
+}

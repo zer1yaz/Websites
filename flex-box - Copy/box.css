@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Antic&family=Montserrat:wght@100&family=Tenor+Sans&display=swap');
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+}
+
+.container {
+    
+    margin: 10px;
+
+    position: absolute;
+width: 420px;
+height: 250px;
+left: 101.09px;
+top: 1446.98px;
+
+border: 1px solid #5C58AC;
+box-sizing: border-box;
+}
+
+.main-text {
+    position: absolute;
+    
+
+    font-family: 'Tenor Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.secondary {
+    font-size: 20px;
+    
+}

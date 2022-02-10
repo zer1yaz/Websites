@@ -1,0 +1,7 @@
+loconovas-logo.html
+
+сюда для просмотра сайта
+для просмотра кода кликать style-first.css
+
+для таблицы которая будет добавлена на сайт - box1.css , table-loconova.html
+
