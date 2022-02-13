@@ -1,0 +1,423 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Antic&family=The+Nautigal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic&family=Old+Standard+TT&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic&family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic&family=Montserrat:wght@100&family=Tenor+Sans&display=swap');
+
+/* Pink side of sale */
+
+.pink-pic {
+    background-color: pink;
+    width: 1600px;
+    height: 300px;
+    margin: 2450px 0;
+}
+
+.pink-1 {
+    position: absolute;
+    width: 1600px;
+
+    height: 45.28px;
+    
+    
+    font-family: 'Tenor Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #000000;
+    margin: 30px 0;
+}
+
+.pink-2 {
+    position: absolute;
+    width: 1600px;
+
+    height: 32.51px;
+    
+    
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    
+    color: #000000;
+    margin: 90px 0;
+
+}
+
+.pink-3 {
+    position: absolute;
+    width: 1600px;
+    height: 19px;
+    
+    
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #6E6E6E;
+    margin: 245px 0;
+}
+
+.placeholder {
+    position: absolute;
+    width: 310.5px;
+    height: 65.7px;
+    
+    text-align: center;
+
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    margin: 150px 300px;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #757575;
+}
+
+.btn-3 {
+    position: absolute;
+    width: 310.5px;
+    height: 65.7px;
+    margin: 150px 1000px;
+    
+    
+    background: #5C58AC;
+}
+
+.placeholder1 {
+    position: absolute;
+    width: 310.5px;
+    height: 65.7px;
+    
+
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    margin: 150px 650px;
+    text-align: center;
+
+
+
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #757575;
+    
+}
+
+.sent {
+    position: absolute;
+    width: 181px;
+    height: 32.85px;
+
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 25px;
+    line-height: 30px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    margin: -15px -90px;
+}
+
+/* Purple side of sale */
+
+.pink-pic2 {
+    background-color: #5C58AC;
+    width: 1600px;
+    height: 300px;
+    margin: 3450px -10px;
+}
+
+.pink-4 {
+    position: absolute;
+    width: 1600px;
+
+    height: 45.28px;
+    
+    
+    font-family: 'Tenor Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    margin: 30px 0;
+}
+
+.pink-5 {
+    position: absolute;
+    width: 1600px;
+
+    height: 32.51px;
+    
+    
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    margin: 90px 0;
+
+}
+
+.pink-6 {
+    position: absolute;
+    width: 1600px;
+    height: 19px;
+    
+    
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #FFFFFF;
+    margin: 245px 0;
+}
+
+.placeholder2 {
+    position: absolute;
+    width: 310.5px;
+    height: 65.7px;
+    
+
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    margin: 150px 300px;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 24px;
+
+    text-align: center;
+    color: #757575;
+}
+
+.btn-4 {
+    position: absolute;
+    width: 310.5px;
+    height: 65.7px;
+    margin: 150px 1000px;
+    
+    
+    background: #FF5656;
+}
+
+.placeholder3 {
+    position: absolute;
+    width: 310.5px;
+    height: 65.7px;
+    
+
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 150px 650px;
+
+
+
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #757575;
+    
+}
+
+.sent2 {
+    position: absolute;
+    width: 181px;
+    height: 32.85px;
+
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 25px;
+    line-height: 30px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    margin: -15px -90px;
+}
+/* purple 2 side  */
+.pink-pic4 {
+    background-color: #5C58AC;
+    width: 1600px;
+    height: 300px;
+    margin: -1150px -10px;
+}
+
+.pink-10 {
+    position: absolute;
+    width: 1600px;
+
+    height: 45.28px;
+    
+    
+    font-family: 'Tenor Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    margin: 30px 0;
+}
+
+.pink-11 {
+    position: absolute;
+    width: 1600px;
+
+    height: 32.51px;
+    
+    
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    margin: 90px 0;
+
+}
+
+.pink-12 {
+    position: absolute;
+    width: 1600px;
+    height: 19px;
+    
+    
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #FFFFFF;
+    margin: 245px 0;
+}
+
+.placeholdery1 {
+    position: absolute;
+    width: 310.5px;
+    height: 65.7px;
+    
+
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    margin: 150px 300px;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 24px;
+
+    text-align: center;
+    color: #757575;
+}
+
+.btn-y {
+    position: absolute;
+    width: 310.5px;
+    height: 65.7px;
+    margin: 150px 1000px;
+    
+    
+    background: #FF5656;
+}
+
+.placeholdery {
+    position: absolute;
+    width: 310.5px;
+    height: 65.7px;
+    
+
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 150px 650px;
+
+
+
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #757575;
+    
+}
+
+.sent2 {
+    position: absolute;
+    width: 181px;
+    height: 32.85px;
+
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 25px;
+    line-height: 30px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    margin: -15px -90px;
+}

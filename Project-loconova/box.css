@@ -1,0 +1,335 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Antic&family=The+Nautigal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic&family=Old+Standard+TT&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic&family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic&family=Montserrat:wght@100&family=Tenor+Sans&display=swap');
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+    
+}
+
+/* .container {
+    
+    width: 420px;
+    height: 250px;
+    border: 1px solid #5C58AC;
+} */
+
+.main-text1 {
+    position: absolute;
+    
+
+    font-family: 'Tenor Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.secondary1 {
+    position: absolute;
+/* width: 369.34px;
+height: 73.7px;
+left: 129.52px;
+top: 1520.13px; */
+
+font-family: 'Montserrat', sans-serif;
+
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+    
+}
+
+.main-text2 {
+    position: absolute;
+    /* width: 328.48px;
+    height: 23.16px;
+    left: 618.52px;
+    top: 1476.98px; */
+
+    font-family: 'Tenor Sans', sans-serif;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.secondary2 {
+    position: absolute;
+    /* width: 369.34px;
+    height: 73.7px;
+    left: 618.52px;
+    top: 1520.13px; */
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.main-text3 {
+    position: absolute;
+    /* width: 328.48px;
+    height: 23.16px;
+    left: 1107.52px;
+    top: 1476.98px; */
+    
+    font-family: 'Tenor Sans', sans-serif;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+
+.secondary3 {
+    position: absolute;
+    /* width: 369.34px;
+    height: 73.7px;
+    left: 1107.52px;
+    top: 1520.13px; */
+    
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #000000;
+}
+
+.main-text4 {
+    position: absolute;
+    /* width: 328.48px;
+    height: 23.16px;
+    left: 129.52px;
+    top: 1776.98px; */
+    
+    font-family: 'Tenor Sans', sans-serif;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+
+.secondary4 {
+    position: absolute;
+    /* width: 369.34px;
+    height: 73.7px;
+    left: 129.52px;
+    top: 1820.13px; */
+    
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #000000;
+}
+
+.main-text5 {
+    position: absolute;
+    /* width: 328.48px;
+    height: 23.16px;
+    left: 618.52px;
+    top: 1776.98px; */
+    
+    font-family: 'Tenor Sans', sans-serif;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+.secondary5 {
+    position: absolute;
+    /* width: 369.34px;
+    height: 73.7px;
+    left: 618.52px;
+    top: 1820.13px; */
+    
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #FFFFFF;
+}
+
+.main-text6 {
+    position: absolute;
+    /* width: 328.48px;
+    height: 23.16px;
+    left: 1107.52px;
+    top: 1776.98px; */
+    
+    font-family: 'Tenor Sans', sans-serif;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+
+.secondary6 {
+    position: absolute;
+    /* width: 369.34px;
+    height: 73.7px;
+    left: 1107.52px;
+    top: 1820.13px; */
+    
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #000000;
+}
+
+.main-text7 {
+    position: absolute;
+    /* width: 328.48px;
+    height: 23.16px;
+    left: 128.43px;
+    top: 2076.98px; */
+    
+    font-family: 'Tenor Sans', sans-serif;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+
+.secondary7 {
+    position: absolute;
+    /* width: 369.34px;
+    height: 73.7px;
+    left: 128.43px;
+    top: 2120.13px; */
+    
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #000000;
+}
+
+.main-text8 {
+    position: absolute;
+    /* width: 328.48px;
+    height: 23.16px;
+    left: 617.43px;
+    top: 2076.98px; */
+    
+    font-family: 'Tenor Sans', sans-serif;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+
+.secondary8 {
+    position: absolute;
+    /* width: 369.34px;
+    height: 73.7px;
+    left: 617.43px;
+    top: 2120.13px; */
+    
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #000000;
+}
+
+.main-text9 {
+    position: absolute;
+    /* width: 340.29px;
+    height: 23.16px;
+    left: 1106.43px;
+    top: 2076.98px; */
+    
+    font-family: 'Tenor Sans', sans-serif;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+
+.secondary9 {
+    position: absolute;
+    /* width: 369.34px;
+    height: 73.7px;
+    left: 1106.43px;
+    top: 2120.13px; */
+    
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #000000;
+}
+
+.container {
+    position: absolute;
+    /* width: 420px;
+    height: 250px;
+    left: 101.09px;
+    top: 1446.98px; */
+    
+    border: 1px solid #5C58AC;
+    /* box-sizing: border-box; */
+}
+
