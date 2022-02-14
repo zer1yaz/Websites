@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/main.min.css">
+	<title>Manhattan</title>
+</head>
+<body>
+	<header class="header">
+		<div class="header__top">
+			<div class="container">
+				<div class="header__wrapper">
+					<a href="#" class="header__address header__item address">
+						Москва, ул Нижняя Красносельская 35, стр. 9 Метро Красносельская
+					</a>
+					<a href="index.html" class="header__logo logo">
+						<img src="img/logo.svg" alt="manhattan-logo">
+					</a>
+					<a href="tel:+74951254490" class="header__item header-phone phone">+7 (495) 106-41-16</a>
+					<button class="header__item header__button popup-btn" data-popup="contact-form">
+						Записаться
+					</button>
+					<div class="menu-btn">
+						<div class="menu-btn__line"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header__bottom">
+			<div class="container">
+				<div class="header__wrapper">
+					<nav class="nav">
+						<ul class="nav__items-inner">
+							<li class="nav__item">
+								<a href="#about">О нас</a>
+							</li>
+							<li class="nav__item">
+								<a href="#stock">Акции</a>
+							</li>
+							<li class="nav__item">
+								<a href="#services">Услуги</a>
+							</li>
+							<li class="nav__item">
+								<a href="#reviews">Отзывы</a>
+							</li>
+							<li class="nav__item">
+								<a href="#contact">Контакты</a>
+							</li>
+							<li class="nav__item">
+								<a href="#installment">Рассрочка</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="social">
+						<a href="https://www.instagram.com/manhattan.clinic/" class="social__icon">
+							<img src="img/icons/Instagram.svg" alt="instagram">
+						</a>
+						<a href="#" class="social__icon">
+							<img src="img/icons/TikTok.svg" alt="tik-tok">
+						</a>
+						<button class="social__icon popup-btn" data-popup="contact-form">
+							<img src="img/icons/WhatsApp.svg" alt="whatsApp">
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header__menu">
+			<div class="header__menu_wrapper">
+				<a href="index.html" class="header__menu_logo logo">
+					<img src="img/logo.svg" alt="manhattan-logo">
+				</a>
+				<nav class="header__menu_nav">
+					<ul class="header__menu_list">
+						<li class="header__menu_nav-item">
+							<a href="#about">О нас</a>
+						</li>
+						<li class="header__menu_nav-item">
+							<a href="#stock">Акции</a>
+						</li>
+						<li class="header__menu_nav-item">
+							<a href="#services">Услуги</a>
+						</li>
+						<li class="header__menu_nav-item">
+							<a href="#reviews">Отзывы</a>
+						</li>
+						<li class="header__menu_nav-item">
+							<a href="#contact">Контакты</a>
+						</li>
+						<li class="header__menu_nav-item">
+							<a href="#installment">Рассрочка</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="social header__menu_social">
+					<a href="https://www.instagram.com/manhattan.clinic/" class="social__icon">
+						<img src="img/icons/Instagram.svg" alt="instagram">
+					</a>
+					<a href="#" class="social__icon">
+						<img src="img/icons/TikTok.svg" alt="tik-tok">
+					</a>
+					<button class="social__icon popup-btn" data-popup="contact-form">
+						<img src="img/icons/WhatsApp.svg" alt="whatsApp">
+					</button>
+				</div>
+				<a href="tel:+74951254490" class="header__menu_phone phone">+7(495)125-44-90</a>
+				<button class="header__button header__menu_button popup-btn" data-popup="contact-form">
+					Записаться
+				</button>
+				<a href="#" class="header__menu_address address">
+					Москва, ул Нижняя Красносельская 35, стр. 9 Метро Красносельская
+				</a>
+			</div>
+		</div>
+	</header>
+	<main class="main">
+		<div class="container">
+			<div class="main__wrapper">
+				<h1 class="main__title">Увеличение <span>губ</span></h1>
+				<h3 class="main__sub-title">Теперь мы в <span>Москве</span></h3>
+				<p class="main__text">
+					Скидка новым клиентам до 70% <br>
+					на любую услугу при записи онлайн
+				</p>
+				<button class="main__button popup-btn" data-popup="contact-form">
+					Записаться онлайн
+				</button>
+				<div class="get-discount">
+					<a href="#" class="get-discount__link">Получить скидку</a>
+					<img src="img/icons/arrow-right.svg" alt="arrow-right" class="get-discount-arrow">
+					<div class="get-discount__price">
+						<div class="get-discount__price_current">5990</div>
+						<div class="get-discount__price_old">10 900 <span>₽</span></div>
+					</div>
+				</div>
+			</div>
+			<div class="main__image-block">
+				<picture><source srcset="img/main/main-img.webp" type="image/webp"><img src="img/main/main-img.jpg" alt="main"></picture>
+				<img src="img/main/new-price.svg" alt="price" class="main__image-block_price">
+			</div>
+			<button class="call-inner popup-btn" data-popup="contact-form">
+				<img src="img/icons/call.svg" alt="call" class="call">
+			</button>
+		</div>
+	</main>
+	<section class="services">
+		<span class="anchor" id="services"></span>
+		<div class="container">
+			<h2 class="services__title">услуги</h2>
+			<div class="services__wrapper">
+				<ul class="services__list services__column">
+					<li class="services__list-item">Инъекции ботокса</li>
+					<li class="services__list-item">Контурная пластика</li>
+					<li class="services__list-item">Уходовые процедуры</li>
+					<li class="services__list-item">Коррекция тела</li>
+					<li class="services__list-item">Ринопластика</li>
+					<li class="services__list-item">Липолитики</li>
+				</ul>
+				<div class="services__column">
+					<div class="services__slider swiper-container">
+						<div class="swiper-wrapper">
+							<div class="services__item swiper-slide">
+								<picture><source srcset="img/services/services-1.webp" type="image/webp"><img src="img/services/services-1.jpg" alt="" class="services__image"></picture>
+								<div class="services__item-description">Увеличение губ</div>
+							</div>
+							<div class="services__item swiper-slide">
+								<picture><source srcset="img/services/services-2.webp" type="image/webp"><img src="img/services/services-2.jpg" alt="" class="services__image"></picture>
+								<div class="services__item-description">Профиль джоли</div>
+							</div>
+							<div class="services__item swiper-slide">
+								<picture><source srcset="img/services/services-3.webp" type="image/webp"><img src="img/services/services-3.jpg" alt="" class="services__image"></picture>
+								<div class="services__item-description">Липолитики</div>
+							</div>
+							<div class="services__item swiper-slide">
+								<picture><source srcset="img/services/services-1.webp" type="image/webp"><img src="img/services/services-1.jpg" alt="" class="services__image"></picture>
+								<div class="services__item-description">Увеличение губ</div>
+							</div>
+							<div class="services__item swiper-slide">
+								<picture><source srcset="img/services/services-2.webp" type="image/webp"><img src="img/services/services-2.jpg" alt="" class="services__image"></picture>
+								<div class="services__item-description">Профиль джоли</div>
+							</div>
+							<div class="services__item swiper-slide">
+								<picture><source srcset="img/services/services-3.webp" type="image/webp"><img src="img/services/services-3.jpg" alt="" class="services__image"></picture>
+								<div class="services__item-description">Липолитики</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-button-next"></div>
+				</div>
+			</div>
+			<button class="services__button popup-btn" data-popup="contact-form">заказать услугу</button>
+		</div>
+		<img src="img/services/services-banner.svg" alt="banner" class="banner">
+	</section>
+	<section class="new-clients">
+		<span class="anchor" id="stock"></span>
+		<div class="container">
+			<h2 class="new-clients__title">новым клиентам</h2>
+			<div class="new-clients__wrapper">
+				<p class="new-clients__text">
+					Скидка новым клиентам до <span>70%</span> 
+					на любую услугу при <br>
+					записи онлайн
+				</p>
+				<button class="new-clients__btn popup-btn" data-popup="contact-form">Записаться онлайн</button>
+				<picture><source srcset="img/new-clients/client-new-img.webp" type="image/webp"><img src="img/new-clients/client-new-img.png" alt="new-clients" class="new-clients__image"></picture>
+			</div>
+		</div>
+	</section>
+	<section class="about">
+		<span class="anchor" id="about"></span>
+		<div class="container">
+			<div class="about__wrapper">
+				<picture><source srcset="img/about/about-image.webp" type="image/webp"><img src="img/about/about-image.png" alt="" class="about__img"></picture>
+				<div class="about__text-content">
+					<h2 class="about__title">НЕМНОГО ФАКТОВ О студии</h2>
+					<p class="about__text">Красота-это выбор! <br> Выбрав нашу клинику,вы можете быть уверены в профессионализме врачей и качестве оказаных услуг!</p>
+					<div class="about__advantages">
+						<div class="about__advantages_item">
+							<div class="about__advantages_item-value">100+</div>
+							<p class="about__advantages_item-key">Довольных клиентов</p>
+						</div>
+						<div class="about__advantages_item">
+							<div class="about__advantages_item-value">$</div>
+							<p class="about__advantages_item-key">Лучшие цены в Москве</p>
+						</div>
+						<div class="about__advantages_item">
+							<div class="about__advantages_item-value">
+								<img src="img/icons/medal.svg" alt="medal">
+							</div>
+							<p class="about__advantages_item-key">Опытные мастера</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<img src="img/about/about-banner.svg" alt="banner" class="banner">
+	</section>
+	<section class="instagram">
+		<div class="container">
+			<div class="instagram__wrapper">
+				<div class="instagram__left-column">
+					<h2 class="instagram__title">мы есть в instagram</h2>
+					<p class="instagram__text">Более 4тыс. подписчиков доверяют нам</p>
+					<a href="https://www.instagram.com/manhattan.clinic/" class="instagram__link">
+						перейти на страницу
+						<img src="img/instagram/transparent-circle.svg" alt="circle" class="transparent-circle">
+					</a>
+				</div>
+				<div class="instagram__gallery">
+					<div class="instagram__gallery_item grid-item_1">
+						<picture><source srcset="img/instagram/face-1.webp" type="image/webp"><img src="img/instagram/face-1.jpg" alt="eye" class="instagram__gallery_image"></picture>
+						<a href="https://www.instagram.com/manhattan.clinic/" class="instagram__gallery_item-layout">
+							<div class="gallery_item-controls">
+								<div class="likes">
+									<img src="img/icons/like.svg" alt="like">
+									<span>85</span>
+								</div>
+								<div class="comments">
+									<img src="img/icons/comment.svg" alt="comment">
+									<span>15</span>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="instagram__gallery_item grid-item_2">
+						<picture><source srcset="img/instagram/face-2.webp" type="image/webp"><img src="img/instagram/face-2.jpg" alt="face" class="instagram__gallery_image"></picture>
+						<a href="https://www.instagram.com/manhattan.clinic/" class="instagram__gallery_item-layout">
+							<div class="gallery_item-controls">
+								<div class="likes">
+									<img src="img/icons/like.svg" alt="like">
+									<span>85</span>
+								</div>
+								<div class="comments">
+									<img src="img/icons/comment.svg" alt="comment">
+									<span>15</span>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="instagram__gallery_item grid-item_3">
+						<picture><source srcset="img/instagram/face-3.webp" type="image/webp"><img src="img/instagram/face-3.jpg" alt="face" class="instagram__gallery_image"></picture>
+						<a href="https://www.instagram.com/manhattan.clinic/" class="instagram__gallery_item-layout">
+							<div class="gallery_item-controls">
+								<div class="likes">
+									<img src="img/icons/like.svg" alt="like">
+									<span>85</span>
+								</div>
+								<div class="comments">
+									<img src="img/icons/comment.svg" alt="comment">
+									<span>15</span>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="instagram__gallery_item grid-item_4">
+						<picture><source srcset="img/instagram/face-4.webp" type="image/webp"><img src="img/instagram/face-4.jpg" alt="face" class="instagram__gallery_image"></picture>
+						<a href="https://www.instagram.com/manhattan.clinic/" class="instagram__gallery_item-layout">
+							<div class="gallery_item-controls">
+								<div class="likes">
+									<img src="img/icons/like.svg" alt="like">
+									<span>85</span>
+								</div>
+								<div class="comments">
+									<img src="img/icons/comment.svg" alt="comment">
+									<span>15</span>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="instagram__gallery_item grid-item_5">
+						<picture><source srcset="img/instagram/face-5.webp" type="image/webp"><img src="img/instagram/face-5.jpg" alt="face" class="instagram__gallery_image"></picture>
+						<a href="https://www.instagram.com/manhattan.clinic/" class="instagram__gallery_item-layout">
+							<div class="gallery_item-controls">
+								<div class="likes">
+									<img src="img/icons/like.svg" alt="like">
+									<span>85</span>
+								</div>
+								<div class="comments">
+									<img src="img/icons/comment.svg" alt="comment">
+									<span>15</span>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="prices">
+		<h2 class="prices__title">
+			цены на наши процедуры
+		</h2>
+		<div class="prices__content">
+			<div class="container">
+				<div class="prices__wrapper">
+					<div class="prices__card">
+						<div class="prices__card_position prices__card_position-main">
+							<div class="prices__card_key">Увеличение губ</div>
+							<div class="prices__card_value">от 3990Р</div>
+						</div>
+						<div class="prices__card_position">
+							<div class="prices__card_key">Celosome Mid</div>
+							<div class="prices__card_value">от 3990Р</div>
+						</div>
+						<div class="prices__card_position">
+							<div class="prices__card_key">Neuramis Deep</div>
+							<div class="prices__card_value">от 3990Р</div>
+						</div>
+						<div class="prices__card_position">
+							<div class="prices__card_key">Rejeunesse Deep</div>
+							<div class="prices__card_value">от 3990Р</div>
+						</div>
+						<div class="prices__card_position">
+							<div class="prices__card_key">Stylage S</div>
+							<div class="prices__card_value">от 3990Р</div>
+						</div>
+						<div class="prices__card_position">
+							<div class="prices__card_key">Juvederm ultra smile</div>
+							<div class="prices__card_value">от 3990Р</div>
+						</div>
+						<div class="prices__card_position">
+							<div class="prices__card_key">Belotero Balance</div>
+							<div class="prices__card_value">от 3990Р</div>
+						</div>
+						<div class="prices__card_position">
+							<div class="prices__card_key">Teosyal Kiss</div>
+							<div class="prices__card_value">от 3990Р</div>
+						</div>
+						<p class="didnt-find">
+							Не нашли нужный препарат?
+							<img src="img/icons/arrow-down.svg" alt="arrow-down">
+						</p>
+						<button class="prices__card_btn popup-btn" data-popup="contact-form">
+							узнать больше
+						</button>
+					</div>
+					<div class="prices__card">
+						<div class="prices__card_position prices__card_position-main">
+							<div class="prices__card_key">Профиль”Джоли”</div>
+							<div class="prices__card_value">от 3990Р</div>
+						</div>
+						<div class="prices__card_position">
+							<div class="prices__card_key">Hyamax</div>
+							<div class="prices__card_value">от 3990Р</div>
+						</div>
+						<div class="prices__card_position">
+							<div class="prices__card_key">Sardenya Shape</div>
+							<div class="prices__card_value">от 3990Р</div>
+						</div>
+						<div class="prices__card_position">
+							<div class="prices__card_key">Celosome Implant</div>
+							<div class="prices__card_value">от 3990Р</div>
+						</div>
+						<div class="prices__card_position">
+							<div class="prices__card_key">Neuramis Volume</div>
+							<div class="prices__card_value">от 3990Р</div>
+						</div>
+						<div class="prices__card_position">
+							<div class="prices__card_key">Hyamax Extra Deep</div>
+							<div class="prices__card_value">от 3990Р</div>
+						</div>
+						<div class="prices__card_position">
+							<div class="prices__card_key">Hyamax Volumizer</div>
+							<div class="prices__card_value">от 3990Р</div>
+						</div>
+						<div class="prices__card_position">
+							<div class="prices__card_key">Dermalax Implant</div>
+							<div class="prices__card_value">от 3990Р</div>
+						</div>
+						<p class="didnt-find">
+							Не нашли нужный препарат?
+							<img src="img/icons/arrow-down.svg" alt="arrow-down">
+						</p>
+						<button class="prices__card_btn popup-btn" data-popup="contact-form">
+							узнать больше
+						</button>
+					</div>
+					<div class="prices__card">
+						<div class="prices__card_position prices__card_position-main">
+							<div class="prices__card_key">Ботулинотерапия</div>
+							<div class="prices__card_value">от 3990Р</div>
+						</div>
+						<div class="prices__card_position">
+							<div class="prices__card_key">Ботокс(Алерган)</div>
+							<div class="prices__card_value">от 3990Р</div>
+						</div>
+						<div class="prices__card_position">
+							<div class="prices__card_key">Ксеомин</div>
+							<div class="prices__card_value">от 3990Р</div>
+						</div>
+						<div class="prices__card_position">
+							<div class="prices__card_key">Dysport</div>
+							<div class="prices__card_value">от 3990Р</div>
+						</div>
+						<div class="prices__card_position">
+							<div class="prices__card_key">Ботулакс</div>
+							<div class="prices__card_value">от 3990Р</div>
+						</div>
+						<div class="prices__card_position">
+							<div class="prices__card_key">Рефайнекс</div>
+							<div class="prices__card_value">от 3990Р</div>
+						</div>
+						<div class="prices__card_position">
+							<div class="prices__card_key">Комплекс - 1 зона</div>
+							<div class="prices__card_value">от 3990Р</div>
+						</div>
+						<div class="prices__card_position">
+							<div class="prices__card_key">Комлекс - 3 зоны</div>
+							<div class="prices__card_value">от 3990Р</div>
+						</div>
+						<p class="didnt-find">
+							Не нашли нужный препарат?
+							<img src="img/icons/arrow-down.svg" alt="arrow-down">
+						</p>
+						<button class="prices__card_btn popup-btn" data-popup="contact-form">
+							узнать больше
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="loyalty">
+		<span class="anchor" id="installment"></span>
+		<div class="container">
+			<div class="loyalty__wrapper">
+				<div class="loyalty__content">
+					<div class="loyalty__title-block">
+						<h2 class="loyalty__title">Стань участником программы лояльности </h2>
+						<img src="img/loyalty/instalment.svg" alt="installment" class="loyalty__installment">
+					</div>
+					<p class="loyalty__paragraph thin">По программе «Рассрочка без переплаты» вы можете оплатить любые услуги клиники в рассрочку.</p>
+					<p class="loyalty__paragraph">Партнеры сервиса: Банк Восточный, Тинькофф Банк, Кредит Европа Банк</p>
+					<h3 class="loyalty__list_title">Как оформить:</h3>
+					<ol class="loyalty__list">
+						<li class="loyalty__list_item">Сообщите менеджеру студии, что хотите воспользоваться услугой «Рассрочка&nbsp;без&nbsp;переплаты».</li>
+						<li class="loyalty__list_item">Заполните форму с менеджером студии и получите решение за 2 минуты.</li>
+						<li class="loyalty__list_item">Подпишите договор и воспользуйтесь услугой.</li>
+					</ol>
+					<h3 class="loyalty__list_title">ТРЕБОВАНИЯ:</h3>
+					<ul class="loyalty__list no-list-style">
+						<li class="loyalty__list_item">Сообщите менеджеру студии, что хотите воспользоваться услугой «Рассрочка без переплаты».</li>
+						<li class="loyalty__list_item">Заполните форму с менеджером студии и получите решение за 2 минуты.</li>
+						<li class="loyalty__list_item">Подпишите договор и воспользуйтесь услугой.</li>
+					</ul>
+					<h3 class="loyalty__list_title">ПРЕДОПЛАТА 0%</h3>
+					<ol class="loyalty__list no-list-style">
+						<li class="loyalty__list_item">Срок до 12 месяцев.</li>
+					</ol>
+				</div>
+				<picture><source srcset="img/loyalty/loyalty-image.webp" type="image/webp"><img src="img/loyalty/loyalty-image.png" alt="loyalty" class="loyalty__image"></picture>
+			</div>
+		</div>
+		<img src="img/loyalty/loyalty-banner.svg" alt="banner" class="banner">
+	</section>
+	<section class="entry">
+		<div class="container">
+			<div class="entry__wrapper">
+				<div class="entry__price">
+					всего <span>2000</span>руб
+				</div>
+				<div class="entry__description">
+					ЛЮБАЯ ЗОНА БОТОКСА
+				</div>
+				<button class="entry__link popup-btn" data-popup="contact-form">
+					<span class="entry__link_text">ЗАПИШИСЬ</span>
+					<img src="img/icons/arrow-right-wh.svg" alt="arrow-right" class="entry__link_icon">
+				</button>
+			</div>
+		</div>
+	</section>
+	<section class="reviews">
+		<span class="anchor" id="reviews"></span>
+		<div class="container">
+			<h2 class="reviews__title">Отзывы клиентов</h2>
+			<div class="reviews__content">
+				<div class="reviews__slider swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide reviews__item">
+							<picture><source srcset="img/reviews/client-img-1.webp" type="image/webp"><img src="img/reviews/client-img-1.png" alt="client" class="reviews__item_image"></picture>
+							<div class="reviews__item_name">Ирина</div>
+							<div class="reviews__item_date">21.01.2022</div>
+							<p class="reviews__item_text">
+								Получила в подарок на день рождение сертифак в данный салон, наращивала волосы и делала губки, персонал дружелюбный, на все ответили , подарком довольна 🥰 прийду на коррекцию
+							</p>
+							<div class="clamp-btn">
+								<img src="img/icons/arrow-down.svg" alt="arrow">
+							</div>
+							<div class="reviews__item_mark">
+								<img src="img/icons/red-star.svg" alt="red-star">
+								<img src="img/icons/red-star.svg" alt="red-star">
+								<img src="img/icons/red-star.svg" alt="red-star">
+								<img src="img/icons/red-star.svg" alt="red-star">
+								<img src="img/icons/red-star.svg" alt="red-star">
+							</div>
+						</div>
+						<div class="swiper-slide reviews__item">
+							<picture><source srcset="img/reviews/client-img-2.webp" type="image/webp"><img src="img/reviews/client-img-2.png" alt="client" class="reviews__item_image"></picture>
+							<div class="reviews__item_name">Вера</div>
+							<div class="reviews__item_date">28.01.2022</div>
+							<p class="reviews__item_text">Ходила к косметологу Аиде на свой первый в жизни ботокс. Рука лёгкая, эффект превзошел ожидания! По ценнику вышло</p>
+							<div class="clamp-btn">
+								<img src="img/icons/arrow-down.svg" alt="arrow">
+							</div>
+							<div class="reviews__item_mark">
+								<img src="img/icons/red-star.svg" alt="red-star">
+								<img src="img/icons/red-star.svg" alt="red-star">
+								<img src="img/icons/red-star.svg" alt="red-star">
+								<img src="img/icons/red-star.svg" alt="red-star">
+								<img src="img/icons/red-star.svg" alt="red-star">
+							</div>
+						</div>
+						<div class="swiper-slide reviews__item">
+							<picture><source srcset="img/reviews/client-img-3.webp" type="image/webp"><img src="img/reviews/client-img-3.png" alt="client" class="reviews__item_image"></picture>
+							<div class="reviews__item_name">Анастасия</div>
+							<div class="reviews__item_date">29.01.2022</div>
+							<p class="reviews__item_text">Хотела оставить отзыв Хочу поблагодарить Manhattan за такую красоту что мне сделали🥰 Особенная благодарность</p>
+							<div class="clamp-btn">
+								<img src="img/icons/arrow-down.svg" alt="arrow">
+							</div>
+							<div class="reviews__item_mark">
+								<img src="img/icons/red-star.svg" alt="red-star">
+								<img src="img/icons/red-star.svg" alt="red-star">
+								<img src="img/icons/red-star.svg" alt="red-star">
+								<img src="img/icons/red-star.svg" alt="red-star">
+								<img src="img/icons/red-star.svg" alt="red-star">
+							</div>
+						</div>
+						<div class="swiper-slide reviews__item">
+							<picture><source srcset="img/reviews/client-img-4.webp" type="image/webp"><img src="img/reviews/client-img-4.png" alt="client" class="reviews__item_image"></picture>
+							<div class="reviews__item_name">Enchantress</div>
+							<div class="reviews__item_date">01.02.2022</div>
+							<p class="reviews__item_text">Прекрасные мастера. Огромное спасибо косметологу Аиде. Рекомендую всем своим друзьям и знакомым, кто</p>
+							<div class="clamp-btn">
+								<img src="img/icons/arrow-down.svg" alt="arrow">
+							</div>
+							<div class="reviews__item_mark">
+								<img src="img/icons/red-star.svg" alt="red-star">
+								<img src="img/icons/red-star.svg" alt="red-star">
+								<img src="img/icons/red-star.svg" alt="red-star">
+								<img src="img/icons/red-star.svg" alt="red-star">
+								<img src="img/icons/red-star.svg" alt="red-star">
+							</div>
+						</div>
+						<div class="swiper-slide reviews__item">
+							<picture><source srcset="img/reviews/client-img-5.webp" type="image/webp"><img src="img/reviews/client-img-5.png" alt="client" class="reviews__item_image"></picture>
+							<div class="reviews__item_name">Leon</div>
+							<div class="reviews__item_date">02.02.2022</div>
+							<p class="reviews__item_text">Делала впервые губки😊 выбрала manhattan.clinic и не пожалела) было много страхов. Опытный врач-косметолог все</p>
+							<div class="clamp-btn">
+								<img src="img/icons/arrow-down.svg" alt="arrow">
+							</div>
+							<div class="reviews__item_mark">
+								<img src="img/icons/red-star.svg" alt="red-star">
+								<img src="img/icons/red-star.svg" alt="red-star">
+								<img src="img/icons/red-star.svg" alt="red-star">
+								<img src="img/icons/red-star.svg" alt="red-star">
+								<img src="img/icons/red-star.svg" alt="red-star">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
+			</div>
+		</div>
+	</section>
+	<section class="photos">
+		<div class="container">
+			<h2 class="photos__title">ФОто наших красавиц клиенток</h2>
+			<div class="photos__wrapper">
+				<div class="photos-slider swiper-container">
+					<div class="swiper-wrapper">
+						<div class="photos__slide swiper-slide">
+							<div class="photos__slide_level">
+								<picture><source srcset="img/photos/photo-1.webp" type="image/webp"><img src="img/photos/photo-1.jpg" alt="" class="photos__slide_image"></picture>
+								<p class="photos__slide_text">Увеличение губ</p>
+							</div>
+							<div class="photos__slide_level">
+								<picture><source srcset="img/photos/photo-2.webp" type="image/webp"><img src="img/photos/photo-2.jpg" alt="" class="photos__slide_image"></picture>
+								<p class="photos__slide_text">Увеличение губ</p>
+							</div>
+						</div>
+						<div class="photos__slide swiper-slide">
+							<div class="photos__slide_level">
+								<picture><source srcset="img/photos/photo-3.webp" type="image/webp"><img src="img/photos/photo-3.jpg" alt="" class="photos__slide_image"></picture>
+								<p class="photos__slide_text">Увеличение губ</p>
+							</div>
+							<div class="photos__slide_level">
+								<picture><source srcset="img/photos/photo-4.webp" type="image/webp"><img src="img/photos/photo-4.jpg" alt="" class="photos__slide_image"></picture>
+								<p class="photos__slide_text">Профиль “Джоли”</p>
+							</div>
+						</div>
+						<div class="photos__slide swiper-slide">
+							<div class="photos__slide_level">
+								<picture><source srcset="img/photos/photo-5.webp" type="image/webp"><img src="img/photos/photo-5.jpg" alt="" class="photos__slide_image"></picture>
+								<p class="photos__slide_text">Профиль “Джоли” и скулы</p>
+							</div>
+							<div class="photos__slide_level">
+								<picture><source srcset="img/photos/photo-6.webp" type="image/webp"><img src="img/photos/photo-6.jpg" alt="" class="photos__slide_image"></picture>
+								<p class="photos__slide_text">Увеличение губ</p>
+							</div>
+						</div>
+						<div class="photos__slide swiper-slide">
+							<div class="photos__slide_level">
+								<picture><source srcset="img/photos/photo-1.webp" type="image/webp"><img src="img/photos/photo-1.jpg" alt="" class="photos__slide_image"></picture>
+								<p class="photos__slide_text">Увеличение губ</p>
+							</div>
+							<div class="photos__slide_level">
+								<picture><source srcset="img/photos/photo-2.webp" type="image/webp"><img src="img/photos/photo-2.jpg" alt="" class="photos__slide_image"></picture>
+								<p class="photos__slide_text">Увеличение губ</p>
+							</div>
+						</div>
+						<div class="photos__slide swiper-slide">
+							<div class="photos__slide_level">
+								<picture><source srcset="img/photos/photo-3.webp" type="image/webp"><img src="img/photos/photo-3.jpg" alt="" class="photos__slide_image"></picture>
+								<p class="photos__slide_text">Увеличение губ</p>
+							</div>
+							<div class="photos__slide_level">
+								<picture><source srcset="img/photos/photo-4.webp" type="image/webp"><img src="img/photos/photo-4.jpg" alt="" class="photos__slide_image"></picture>
+								<p class="photos__slide_text">Профиль “Джоли”</p>
+							</div>
+						</div>
+						<div class="photos__slide swiper-slide">
+							<div class="photos__slide_level">
+								<picture><source srcset="img/photos/photo-5.webp" type="image/webp"><img src="img/photos/photo-5.jpg" alt="" class="photos__slide_image"></picture>
+								<p class="photos__slide_text">Профиль “Джоли” и скулы</p>
+							</div>
+							<div class="photos__slide_level">
+								<picture><source srcset="img/photos/photo-6.webp" type="image/webp"><img src="img/photos/photo-6.jpg" alt="" class="photos__slide_image"></picture>
+								<p class="photos__slide_text">Увеличение губ</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
+			</div>
+		</div>
+		<img src="img/photos/photos-banner.svg" alt="banner" class="banner">
+	</section>
+	<section class="contact">
+		<span class="anchor" id="contact"></span>
+		<div class="container">
+			<div class="contact__wrapper">
+				<div class="contact__column">
+					<h2 class="contact__title">КОНТАКТЫ</h2>
+					<div class="contact__info-item">
+						<h4 class="contact__info-type">Ресепшен</h4>
+						<a href="tel:+74951064116" class="contact__info-value">+7 (495) 106-41-16</a>
+					</div>
+					<div class="contact__info-item">
+						<h4 class="contact__info-type">Менеджер</h4>
+						<a href="tel:+79259658339" class="contact__info-value">+7 (925) 965-83-39</a>
+					</div>
+					<div class="contact__info-item">
+						<h4 class="contact__info-type">Почта</h4>
+						<a href="mailto:manhattan.msc@mail.ru" class="contact__info-value">manhattan.msc@mail.ru</a>
+					</div>
+					<div class="contact__info-item">
+						<h4 class="contact__info-type">Адрес</h4>
+						<p class="contact__info-value">
+							г.Москва,м.Киевская, <br>
+							ул.Бережковская&nbsp;набережная дом&nbsp;12
+						</p>
+					</div>
+				</div>
+				<form action="#" class="contact__form">
+					<h2 class="contact__form_title contact__title">ЕСТЬ ВОПРОСЫ?</h2>
+					<p class="contact__form_sub-title">Закажите звонок и получите скидку до 70%.</p>
+					<input type="text" class="contact__form_input" placeholder="Ваше имя">
+					<input type="tel" class="contact__form_input" placeholder="Номер телефона">
+					<button type="submit" class="contact__form_btn">ОТПРАВИТЬ</button>
+					<p class="accept">*Нажимая кнопку “Отправить” вы соглашаетесь на обработку персональных данных</p>
+				</form>
+			</div>
+		</div>
+	</section>
+	<section class="license">
+		<div class="container">
+			<div class="license__wrapper">
+				<div class="license__text-block">
+					<h3 class="license__title">Лицензии</h3>
+					<p class="license__text">
+						Мы за прозрачность!Обращаясь к нам,вы получаете увереность в безопастности оказываемых услуг.
+					</p>
+				</div>
+				<div class="license__images">
+					<picture><source srcset="img/license/license-1.webp" type="image/webp"><img src="img/license/license-1.png" alt="license" class="license__img"></picture>
+					<picture><source srcset="img/license/license-2.webp" type="image/webp"><img src="img/license/license-2.png" alt="license" class="license__img"></picture>
+					<picture><source srcset="img/license/license-3.webp" type="image/webp"><img src="img/license/license-3.png" alt="license" class="license__img"></picture>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__wrapper">
+				<a href="index.html" class="footer__logo logo">
+					<img src="img/logo.svg" alt="manhattan-logo">
+				</a>
+				<nav class="nav footer-nav">
+					<ul class="nav__items-inner">
+						<li class="nav__item">
+							<a href="#">О нас</a>
+						</li>
+						<li class="nav__item">
+							<a href="#">Акции</a>
+						</li>
+						<li class="nav__item">
+							<a href="#">Услуги</a>
+						</li>
+						<li class="nav__item">
+							<a href="#">Отзывы</a>
+						</li>
+						<li class="nav__item">
+							<a href="#">Контакты</a>
+						</li>
+						<li class="nav__item">
+							<a href="#">Рассрочка</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="footer__row">
+					<a href="#" class="footer__adderess address">
+						Москва, ул Нижняя Красносельская 35, стр. 9<br> Метро Красносельская
+					</a>
+					<div class="social footer-social">
+						<a href="https://www.instagram.com/manhattan.clinic/" class="social__icon">
+							<img src="img/icons/Instagram.svg" alt="instagram">
+						</a>
+						<a href="#" class="social__icon">
+							<img src="img/icons/TikTok.svg" alt="tik-tok">
+						</a>
+						<button class="social__icon popup-btn" data-popup="contact-form">
+							<img src="img/icons/WhatsApp.svg" alt="whatsApp">
+						</button>
+					</div>
+					<div class="timetable">
+						<p class="timetable__header">Ежедневно : 09:00 - 21:00</p>
+						<a href="tel:+74951064116" class="timetable__item">+7(495)106-41-16</a>
+					</div>
+				</div>
+				<button class="footer__btn popup-btn" data-popup="contact-form">Записаться</button>
+				<p class="footer__text">
+					ООО медецинский центр "Здрава" <br>
+				Лицензия от 12/04/2016 №ЛО-77-01-012105</p>
+				<a href="#"class="footer__text poliicy">© 2021 Политика конфиденциальности</a>
+			</div>
+		</div>
+	</footer>
+	<div class="popup__bg"> 
+        <form class="popup1" id="form" action="sender.php" method="POST">
+            <p class="close-popup">&#10006</p>
+            <label for="formName" class="form__label">
+                <input type="text" name="name" placeholder="Ваше имя" class="label__text _req" id="name_parser" _name pattern="[а-я]+">
+                
+            </label for="formName" class="form__label">
+            <label class="regbar">
+                <input type="tel" name="phone" placeholder="Номер телефона" class="label__text _req" id="phone_parser" pattern="[0-9]+">
+                
+            </label>
+            <button type="submit" class="arctozc" id="python_whatsapp">Записаться онлайн</button>
+            <p class="pop_unbtn">*Нажимая кнопку  вы соглашаетесь
+                на обработку персональных данных</p>
+        </form>
+    </div> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Clamp.js/0.5.1/clamp.min.js"></script>
+	<script src="js/main.min.js"></script>
+</body>
+</html>
